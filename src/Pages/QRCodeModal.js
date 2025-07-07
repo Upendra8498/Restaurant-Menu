@@ -8,7 +8,7 @@ const QRCodeModal = ({ open, onClose, qrid }) => {
   useEffect(() => {
     if (open === true) {
       // setQrData(`http://localhost:3000/customer-menu/${qrid}`);
-      setQrData(`https://upendra8498.github.io/QR-Restaurant-Menu/#/customermenu/${qrid}`);
+      setQrData(`https://upendra8498.github.io/Restaurant-Menu/#/customermenu/${qrid}`);
     }
   }, [open]);
 

@@ -8,7 +8,7 @@ const ProtectedRoute = () => {
   if (!user) {
     // If there is no authenticated user, redirect to login page
     return <Navigate to="/" />;
-    // return <Navigate to="/QR-Restaurant-Menu/" />;
+    // return <Navigate to="/Restaurant-Menu/" />;
   }
 
   return <Outlet />;  // Render nested routes here

@@ -31,4 +31,10 @@ Your app is ready to be deployed!
 https://www.pngwing.com/
 
 #### My project is live in
-https://upendra8498.github.io/QR-Restaurant-Menu
+https://upendra8498.github.io/Restaurant-Menu
+
+
+git add .
+git commit -m "message"
+git push
+npm run deploy
